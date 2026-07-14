@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #fff8f2;
+
+    font-family: Arial, sans-serif;
+
+    color: #ff6f91;
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+
+p {
+    font-size: 22px;
+    color: #555;
+}
+
+
+button {
+    background: #ff9eb5;
+
+    color: white;
+
+    border: none;
+    border-radius: 30px;
+
+    padding: 15px 45px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+}
